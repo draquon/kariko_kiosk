@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+	max-width: 100%;
+}
+
+body{
+	margin:0;
+}
+
+#bodydiv {
+  font-family: Amaranth;
+  <!-- height: 100vh;
+  width: 100vw; 
+  width: 100%; 
+  height: 100%;-->
+}
+
+#header{
+  background-color:#16263f;
+  text-align: center;
+  height: 100px;
+  color: #16263f;
+  margin:0;
+}
+
+#focim{
+	font-family: Amaranth;
+	font-size:35px;
+	font-weight: bold;
+	color: #16263f;
+	padding-top:20px;
+}
+
+#logo{
+	display: block;
+	margin: auto;
+	width: 250px;
+	padding-top:20px;
+}
+
+
+#hatter{
+	width:100%;
+	max-height:350px;
+	min-height:350px;
+	padding-top: 50px;
+	background-image: url('hatter.jpg');
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	margin:auto;
+	margin-bottom:40px;
+}
+
+#tab{
+	
+	margin-top:50px;
+	margin-bottom:50px;
+	width:50%;
+	margin-right:50px;
+	float:right;
+	padding:20px;
+	background-color:white;
+	opacity:0.8;
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+figcaption{
+	color:#16263f;
+	font-size:20px;
+	font-weight:500;
+}
+
+#zaszlo_nagycontainer{
+	margin:auto;
+	text-align:center;
+	paddint-top:40px;
+}
+
+.zaszlo_container{
+	display:inline-block;
+	margin:auto;
+	width:20%;
+	vertical-align: text-top;
+}
+
+.zaszlok{
+	border-radius: 8px;
+	max-width: 50%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.zaszlok:hover{
+	 opacity: 0.5;
+}
+
+#footer {
+  clear: both;
+  text-align: center;
+  background-color:#16263f;
+  height: 50px;
+  width:100%;
+  color:white;
+  position: fixed;
+  bottom: 0;
+}
+
+
+</style>
+</head>
+<body>
+<div id="bodydiv">
+
+<div id="header">
+  <img id="logo" src="ek_logofeher.png" alt="SZTE Klebelsberg Könyvtár">
+</div>
+	
+<div class="row">
+	<div id="article">	
+		<div id="hatter">
+			<div id="tab">
+				<p id="focim">Karikó Katalin virtuális kiállítás<p>
+			</div>
+		</div>
+		<div>
+			<div id="zaszlo_nagycontainer">
+				<div class="zaszlo_container">
+					<figure>
+						<a href="https://mediateka.ek.szte.hu/exhibits/show/kariko_katalin_szte/bevezeto"><img class="zaszlok" src="hu.svg" alt="Karikó Katalin virtuális kiállítás"></a>
+						<figcaption><p style="text-align:center">virtuális kiállítás</p></figcaption>
+					</figure>
+				</div>
+				<div class="zaszlo_container">
+					<figure>
+						<a href="https://mediateka.ek.szte.hu/exhibits/show/katalin_kariko_eng/bio"><img class="zaszlok" src="gb.svg" alt="Katalin Karikó virtual exhibition"></a>
+						<figcaption><p style="text-align:center">virtual exhibition</p></figcaption>
+					</figure>
+				</div>
+				<div class="zaszlo_container">
+					<figure>
+						<a href="https://mediateka.ek.szte.hu/exhibits/show/katalin_kariko_ger/bio"><img class="zaszlok" src="de.svg" alt="Katalin Karikó virtuelle Ausstellung"></a>
+						<figcaption><p style="text-align:center">virtuelle Ausstellung</p></figcaption>
+					</figure>
+				</div>
+				<div class="zaszlo_container">
+					<figure>
+						<a href="https://mediateka.ek.szte.hu/exhibits/show/katalin_kariko_fr/bio"><img class="zaszlok" src="fr.svg" alt="Katalin Karikó exposition virtuelle"></a>
+						<figcaption><p style="text-align:center">exposition virtuelle</p></figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div id="footer">
+	<p>© 2024 Szegedi Tudományegyetem Klebelsberg Kuno Könyvtára - Minden jog fenntartva.<p>
+</div>
+
+</div>
+</body>
+</html>
+
